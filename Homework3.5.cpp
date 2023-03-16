@@ -14,6 +14,7 @@ int main()
     i = 0;
     while (i < 15)
     {
+        if(i % 2 == 1)
         cout << i << endl;
         i++;
     }
